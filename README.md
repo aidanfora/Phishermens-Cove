@@ -18,7 +18,7 @@
     - `url_information.csv`: Our primary dataset, providing over 80 different URL attributes and phishing classifications.
 
 2. [`src`](https://github.com/aidanfora/Phishermens-Cove/tree/main/src): This folder contains all our source code for the Phishermen's Cove project. Key files include:
-    - [`practical-motivation`](https://github.com/aidanfora/Phishermens-Cove/blob/main/src/practical-motivation.md): Outlines our rationale for focusing on phishing website detection.
+    - [`practical-motivation.md`](https://github.com/aidanfora/Phishermens-Cove/blob/main/src/practical-motivation.md): Outlines our rationale for focusing on phishing website detection.
 
     - [`data-preparation.ipynb`](https://github.com/aidanfora/Phishermens-Cove/blob/main/src/data-preparation.ipynb): Contains the explanation for initial feature selection, as well as code for data cleaning and feature extraction.
 
@@ -28,7 +28,7 @@
 
     - [`machine-learning.ipynb`](https://github.com/aidanfora/Phishermens-Cove/blob/main/src/machine-learning.ipynb): Details the implementation of traditional machine learning models (logistic regression, decision trees) for phishing website classification.
 
-    - [`transformer-approach`](https://github.com/aidanfora/Phishermens-Cove/blob/main/src/transformer-approach.ipynb): Details our learning beyond the classroom by attempting to apply transformer-based models for phishing website classification.
+    - [`transformer-approach.ipynb`](https://github.com/aidanfora/Phishermens-Cove/blob/main/src/transformer-approach.ipynb): Details our learning beyond the classroom by attempting to apply transformer-based models for phishing website classification.
 
 
 ## Learning Value
