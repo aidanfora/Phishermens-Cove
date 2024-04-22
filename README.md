@@ -40,29 +40,29 @@ Based on our selected and engineered variables detailed in `exploratory-analysis
 
 ### Machine Learning and Model Selection
 
-We then train multiple logistic regression and decision tree models based on the 5 prepared training datasets each and evaluate each model based on their test accuracy and goodness of their fit.
+We then train multiple logistic regression and decision tree models based on the 5 prepared training datasets each and evaluate each model based on their test accuracy and goodness of their fit. Best test accuracy for each type of model has been bolded.
 
 #### Logistic Regression:
 
 
 | Training Sets      | Num | Cat | Engi | Num + Cat | Num + Cat + Engi | 
 |--------------------|:-------:|:----------:|:--------:|:-----------:|:------------:|
-| Test <br> Accuracy | 0.8431 |  0.86302   | 0.7263  |   0.8485   |   0.8621    |
+| Test Accuracy | 0.8431 |  0.6302   | 0.7263  |   0.8485   |   **0.8621**    |
 
 #### Decision Trees:
 
 
 | Training Sets      | Num | Cat | Engi | Num + Cat | Num + Cat + Engi | 
 |--------------------|:-------:|:----------:|:--------:|:-----------:|:------------:|
-| Test <br> Accuracy | 0.9175 |  0.6303   | 0.9314  |   0.9193   |   0.9578    |
+| Test Accuracy | 0.9175 |  0.6303   | 0.9314  |   0.9193   |   **0.9578**    |
 
 
 ###### **Refer to `machine-learning.ipynb` for more detailed explanations.*
 
-Comparing Logistic Regression and Decision Trees, we notice that Decision Trees in general performed better than logistic regression models for classifying phishing URLs usiing our selected variables from the dataset.
+Comparing Logistic Regression and Decision Trees, we notice that Decision Trees in general performed better than logistic regression models for classifying phishing URLs using our selected variables from the dataset.
 
 Best model obtained:
-- [X] Decision Tree Classifier (Trained on Numerical + Categorical + Feature Engineered variables), achieving an impressive accuracy of 95.78% on our test set.
+- [X] Decision Tree Classifier (Trained on Numerical + Categorical + Feature Engineered variables), achieving an impressive accuracy of `95.78%` on our test set.
 
 
 ### NLP Techniques with BERT
@@ -76,7 +76,7 @@ We used balanced smapling to obtain a balanced dataset of full length phishing a
 | Test Accuracy | 0.9406 |
 | F1 Score | 0.9415 |
 
-Overall, our finetuned BERT model shows promising results in predicting phishing URLs given raw unprocessed full length URLs with a high accuracy of around 94% and a good fit with little bias indicated by the high F1 score of 0.9415.
+Overall, our finetuned BERT model shows promising results in predicting phishing URLs given raw unprocessed full length URLs with a high accuracy of around `94%` and a good fit with little bias indicated by the high F1 score of 0.9415.
 
 ## Learning Value
 
